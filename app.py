@@ -5,9 +5,9 @@ import pickle
 
 # Loading the model
 app = Flask(__name__) # initializing a flask app
-with open('D:\Applied Data Science\Flask\model.plk','rb') as f:
+with open('model.plk','rb') as f:
     model = pickle.load(f)
-with open('D:\Applied Data Science\Flask\scalar.plk','rb') as f:
+with open('scalar.plk','rb') as f:
     sc = pickle.load(f)
 
 # Loading the home page
